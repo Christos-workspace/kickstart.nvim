@@ -19,12 +19,12 @@ return {
               -- Can be a table or a function that
               -- returns a table (see below)
               command = { 'zsh' },
-              block_dividers = { '#%%' },
+              block_dividers = { '# %%' },
             },
             python = {
               command = { 'ipython', '--no-autoindent', '--colors=Linux' },
               format = common.bracketed_paste,
-              block_dividers = { '#%%' },
+              block_dividers = { '# %%' },
             },
           },
           -- set the file type of the newly created repl to ft
