@@ -162,14 +162,6 @@ require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
   {
-    'joshuavial/aider.nvim',
-    opts = {
-      auto_manage_context = true,
-      default_bindings = true,
-      debug = false,
-    },
-  },
-  {
     'zbirenbaum/copilot.lua',
     config = function()
       require('copilot').setup {
