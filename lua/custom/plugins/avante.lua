@@ -18,7 +18,7 @@ return {
     opts = {
       -- add any opts here
       -- for example
-      provider = 'claude',
+      provider = 'copilot',
       -- change mode to agentic for more advanced capabilities
       mode = 'legacy',
       behaviour = {
